@@ -14,13 +14,10 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+      CAD <br className="sm:block hidden" /> Designing
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+      We also provide CAD Designing Services, 2D Drafting, 3D Modelling, Rendering, Animation to customers at a very cheap price. CAD design projects seldom follow a consistent timeline. Often, design teams will have a large influx of work that makes resource allocation difficult. By bringing in outside experts, organizations can fill resource gaps and keep projects on track.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">

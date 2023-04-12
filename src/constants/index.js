@@ -23,23 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Upload your parts online",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Upload your CAD File in STL or STEP Format to get only the Best Quotation from 195+ vendors within 1 minute.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "We start manufacturing",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Depending upon the order type, we start your manufacturing in our facilities as fast as 20 minutes.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Timely door-step delivery",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We take care of all the operations and logistics hassle, making sure that your parts are delivered before time.",
   },
 ];
 

@@ -11,8 +11,9 @@ const GetStarted = () => (
         <img src={arrowUp} alt="arrow-up" className="w-[23px] h-[23px] object-contain" />
       </div>
       
-      <p className="font-poppins font-medium text-[18px] leading-[23.4px]">
-        <span className="text-gradient">Started</span>
+      <p className="font-poppins font-medium text-[18px] leading-[23.4px] ml-8">
+        <span className="text-gradient" >
+Instant Quotation</span>
       </p>
     </div>
   </div>

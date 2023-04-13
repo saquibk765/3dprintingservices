@@ -3,30 +3,27 @@ import { PlusIcon, MinusIcon } from '@heroicons/react/solid';
 
 const faqs = [
   {
-    question: 'What is ReactJS?',
+    question: 'How does 3D printing impact product development and speed to market?
+    ',
     answer:
-      'ReactJS is a JavaScript library for building user interfaces. It allows you to create reusable UI components and manage the state of your application with ease.',
+      '3D printing accelerates the process by reducing the time and cost associated with prototyping and refining the design. Many more 3D printed prototypes can be produced in the time needed to mold or machine them and for much less cost. Highly realistic prototypes printed on full-color multimaterial printers look like the final product, cultivating faster and better decisions.',
   },
   {
-    question: 'What is Tailwind CSS?',
+    question: 'What can designers do with 3D printing?',
     answer:
-      'Tailwind CSS is a utility-first CSS framework that makes it easy to design and build modern, responsive user interfaces. It provides a set of pre-defined classes that you can use to style your components.',
+      '3d printing gives designers the capability to drastically shorten the desin process compared to traditional methods of hand modelling or outsourcing to model shops. They keep design process entirely in hpuse, prototype faster and smarter, create beautiful, higly detailed models.',
   },
   {
-    question: 'How do I install ReactJS and Tailwind?',
+    question: 'Is 3D printing a replacement for conventional manufacturing technology?',
     answer:
-      'You can install ReactJS and Tailwind CSS using NPM or Yarn. Here is the command to install ReactJS: `npm install react` or `yarn add react`. To install Tailwind CSS, use this command: `npm install tailwindcss` or `yarn add tailwindcss`.',
+      '3D printing is not a wholesale replacement for existing manufacturing methods like molding and machining. Its benefit lies in supplementing these other technologies at points where they can’t compete. For example, 3D printing’s additive nature is able to make structures that aren’t possible with machining or molding. It also makes low- to mid-volume production economically viable because there’s no need for the tooling investment. Similarly, it’s much faster to get started, which is why GM turned to 3D printing to retool its production line to produce ventilators in the pandemic. In short, 3D printing is another tool in the toolbox, but one that offers key benefits over traditional manufacturing practices when used strategically.',
   },
   {
-    question: 'How do I install ReactJS and Tailwind CSS?',
+    question: 'How do I find out if AM is right for me?',
     answer:
-      'You can install ReactJS and Tailwind CSS using NPM or Yarn. Here is the command to install ReactJS: `npm install react` or `yarn add react`. To install Tailwind CSS, use this command: `npm install tailwindcss` or `yarn add tailwindcss`.',
+      '1) Freedom to design parts and sub-assemblies for the design, not for the manufacturing processes (DFM*). 2) Have inventory on demand for both production and spare parts. 3) Eliminate costs of inventory and the time lag of supply chains. Gain the ability to quickly prototype with the same process with which you will manufacture — true rapid prototypes!',
   },
-  {
-    question: 'How do I install ReactJS and Tailwind CSS2?',
-    answer:
-      'You can install ReactJS and Tailwind CSS using NPM or Yarn. Here is the command to install ReactJS: `npm install react` or `yarn add react`. To install Tailwind CSS, use this command: `npm install tailwindcss` or `yarn add tailwindcss`.',
-  },
+  
   
 ];
 

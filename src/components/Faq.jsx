@@ -3,8 +3,7 @@ import { PlusIcon, MinusIcon } from '@heroicons/react/solid';
 
 const faqs = [
   {
-    question: 'How does 3D printing impact product development and speed to market?
-    ',
+    question: 'How does 3D printing impact product development and speed to market?',
     answer:
       '3D printing accelerates the process by reducing the time and cost associated with prototyping and refining the design. Many more 3D printed prototypes can be produced in the time needed to mold or machine them and for much less cost. Highly realistic prototypes printed on full-color multimaterial printers look like the final product, cultivating faster and better decisions.',
   },

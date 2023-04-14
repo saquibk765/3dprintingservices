@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, robot } from "../assets";
+import { discount, robot, hero } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -28,6 +28,8 @@ const Hero = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         We provide CAD and 3D Printing services at cheapest price. Get instant quotation and product delivered at your place.
         </p>
+
+        <img src={hero} alt="billing" className="w-[100%] h-[100%] relative z-[5] m-8" />
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>

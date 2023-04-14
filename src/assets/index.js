@@ -1,7 +1,8 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
 import binance from "./binance.png";
-import card from "./card.png";
+import de from "./de.png";
+import hero from "./hero.png"
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
 import logo from "./logo.svg";
@@ -14,6 +15,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
 import apple from "./apple.svg";
+import cad from "./cad.png";
 import arrowUp from "./arrow-up.svg";
 import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
@@ -28,7 +30,8 @@ export {
   airbnb,
   bill,
   binance,
-  card,
+  de,
+  hero,
   coinbase,
   dropbox,
   logo,
@@ -41,6 +44,7 @@ export {
   close,
   google,
   apple,
+  cad,
   arrowUp,
   discount,
   facebook,

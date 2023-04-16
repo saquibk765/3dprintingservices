@@ -2,7 +2,14 @@ import { de } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
-const CardDeal = () => (
+
+const CardDeal = () => {
+  const handleClick = () => {
+    window.location.href = './Gallary';
+  };
+
+
+return (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
@@ -12,7 +19,7 @@ printed products?<br className="sm:block hidden" />
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Have look at our beautiful 3d printed customized products to gift your loved ones including customized moon lamp, picture lamp, customized key chain and many more.      </p>
 
-      <Button styles={`mt-10`} />
+      <Button onClick={handleClick} styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>
@@ -20,5 +27,6 @@ printed products?<br className="sm:block hidden" />
     </div>
   </section>
 );
+};
 
-export default CardDeal;
+export default CardDeal

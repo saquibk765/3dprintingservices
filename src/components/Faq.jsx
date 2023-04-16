@@ -48,7 +48,7 @@ function FAQSection() {
               if(index===activeIndex){
               setActiveIndex(-1)}
               else setActiveIndex(index)}}>
-              <dt className="flex justify-between items-center text-lg leading-6 font-medium text-gray-900">
+              <dt className="flex justify-between items-center text-lg leading-6 font-medium text-white">
                 <span>{faq.question}</span>
                 <span className="ml-6 flex-shrink-0">
                   {activeIndex === index ? (

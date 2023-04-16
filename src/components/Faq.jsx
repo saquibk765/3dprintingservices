@@ -30,7 +30,7 @@ function FAQSection() {
   const [activeIndex, setActiveIndex] = useState(null);
   console.log(activeIndex);
   return (
-    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8" id="faq">
       <div className="text-center text-white	">
         <h2 className="text-3xl font-bold   text-white	">Frequently Asked Questions</h2>
         <p className="mt-4 text-lg text-gray-500 text-white	">

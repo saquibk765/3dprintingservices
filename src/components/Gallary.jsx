@@ -1,5 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from "../style";
+import Navbar from "./Navbar"
+
 
 const ProductCard = ({ imageSrc, name, description, price }) => {
   return (
@@ -96,6 +99,12 @@ const ProductsPage = () => {
   ];
 
   return (
+    <div className="bg-primary w-full overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Navbar />
+      </div>
+    </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4">
       {products.map((product) => (
         <ProductCard
@@ -106,6 +115,7 @@ const ProductsPage = () => {
       price={product.price}
     />
   ))}
+</div>
 </div>
 );
 };

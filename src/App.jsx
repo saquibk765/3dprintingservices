@@ -1,35 +1,19 @@
-import styles from "./style";
-import { Billing, Business, CardDeal, Faq, CTA, Footer, Navbar, Stats, Testimonials, Gallary, Hero } from "./components";
+import React from 'react'
+import Gallary from './components/Gallary';
+import Newapp from './Newapp'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
-const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
-
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Hero />
-      </div>
-    </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Gallary/>
-        <Faq />
-        <CTA />
-        <Footer />
-      </div>
-    </div>
-  </div>
-);
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Newapp />} />
+        <Route path="/gallary" element={<Gallary/>} />
+        
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 export default App;

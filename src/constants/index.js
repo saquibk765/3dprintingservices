@@ -91,23 +91,23 @@ export const footerLinks = [
     links: [
       {
         name: "Content",
-        link: "https://www.PrintMania.com/content/",
+        link: "https://www.PRINT3D.com/content/",
       },
       {
         name: "How it Works",
-        link: "https://www.PrintMania.com/how-it-works/",
+        link: "https://www.PRINT3D.com/how-it-works/",
       },
       {
         name: "Create",
-        link: "https://www.PrintMania.com/create/",
+        link: "https://www.PRINT3D.com/create/",
       },
       {
         name: "Explore",
-        link: "https://www.PrintMania.com/explore/",
+        link: "https://www.PRINT3D.com/explore/",
       },
       {
         name: "Terms & Services",
-        link: "https://www.PrintMania.com/terms-and-services/",
+        link: "https://www.PRINT3D.com/terms-and-services/",
       },
     ],
   },
@@ -116,23 +116,23 @@ export const footerLinks = [
     links: [
       {
         name: "Help Center",
-        link: "https://www.PrintMania.com/help-center/",
+        link: "https://www.PRINT3D.com/help-center/",
       },
       {
         name: "Partners",
-        link: "https://www.PrintMania.com/partners/",
+        link: "https://www.PRINT3D.com/partners/",
       },
       {
         name: "Suggestions",
-        link: "https://www.PrintMania.com/suggestions/",
+        link: "https://www.PRINT3D.com/suggestions/",
       },
       {
         name: "Blog",
-        link: "https://www.PrintMania.com/blog/",
+        link: "https://www.PRINT3D.com/blog/",
       },
       {
         name: "Newsletters",
-        link: "https://www.PrintMania.com/newsletters/",
+        link: "https://www.PRINT3D.com/newsletters/",
       },
     ],
   },
@@ -141,11 +141,11 @@ export const footerLinks = [
     links: [
       {
         name: "Our Partner",
-        link: "https://www.PrintMania.com/our-partner/",
+        link: "https://www.PRINT3D.com/our-partner/",
       },
       {
         name: "Become a Partner",
-        link: "https://www.PrintMania.com/become-a-partner/",
+        link: "https://www.PRINT3D.com/become-a-partner/",
       },
     ],
   },

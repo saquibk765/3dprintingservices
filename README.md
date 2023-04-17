@@ -1,6 +1,6 @@
-# PrintMania - Modern UI/UX website using React.js & Tailwind CSS
+# PRINT3D - Modern UI/UX website using React.js & Tailwind CSS
 
-![PrintMania](https://i.ibb.co/BK1Hn0x/Screenshot-2023-08-08-at-4-05-48-PM.png)
+![PRINT3D](https://i.ibb.co/BK1Hn0x/Screenshot-2023-08-08-at-4-05-48-PM.png)
 
 
 ### Showcase your dev skills with practical experience and land the coding career of your dreams

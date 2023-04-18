@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from "../style";
 import Navbar from "./Navbar"
+import Image1 from "../assets/cad.png"
 
 
 const ProductCard = ({ imageSrc, name, description, price }) => {
@@ -35,7 +36,7 @@ const ProductsPage = () => {
   const products = [
     {
       id: 1,
-      imageSrc: '/images/product1.jpg',
+      imageSrc: Image1,
       name: 'Product 1',
       description: 'Description of product 1.',
       price: 19.99,
@@ -91,6 +92,13 @@ const ProductsPage = () => {
     },
     {
       id: 9,
+      imageSrc: '/images/product9.jpg',
+      name: 'Product 9',
+      description: 'Description of product 9.',
+      price: 99.99,
+    },
+    {
+      id: 10,
       imageSrc: '/images/product9.jpg',
       name: 'Product 9',
       description: 'Description of product 9.',

@@ -23,7 +23,6 @@ const Newapp = () => (
         <Billing />
         <CardDeal />
         <Testimonials />
-        <Gallary/>
         <Faq />
         <CTA />
         <Footer />

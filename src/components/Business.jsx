@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
@@ -18,8 +19,16 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () =>  (
-  <section id="features" className={layout.section}>
+const Business = () =>  {
+  const navigate = useNavigate();
+  function handleClick() {
+    console.log("hello")
+    navigate('/printing-service');
+
+  }
+  return(
+
+    <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
        3D Printing Services <br className="sm:block hidden" /> By 
@@ -29,15 +38,15 @@ const Business = () =>  (
       Faster Prototyping with FDM, materials including PLA, ABS, Carbon fiber, Nylon, Pet-G, TPU, and many more.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button handleClick={handleClick} styles={`mt-10`} />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (
         <FeatureCard key={feature.id} {...feature} index={index} />
-      ))}
+        ))}
     </div>
   </section>
-);
+)}
 
 export default Business;

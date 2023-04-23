@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { PlusIcon, MinusIcon } from '@heroicons/react/solid';
 
-const faqs = [
+const FAQs = [
   {
     question: 'How does 3D printing impact product development and speed to market?',
     answer:
@@ -30,7 +30,7 @@ function FAQSection() {
   const [activeIndex, setActiveIndex] = useState(null);
   console.log(activeIndex);
   return (
-    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8" id="faq">
+    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8" id="FAQ">
       <div className="text-center text-white	">
         <h2 className="text-3xl font-bold   text-white	">Frequently Asked Questions</h2>
         <p className="mt-4 text-lg text-gray-500 text-white	">
@@ -43,13 +43,13 @@ function FAQSection() {
       </div>
       <div className="mt-12">
         <dl className="space-y-10">
-          {faqs.map((faq, index) => (
-            <div key={faq.question} onClick={(e) => {
+          {FAQs.map((FAQ, index) => (
+            <div key={FAQ.question} onClick={(e) => {
               if(index===activeIndex){
               setActiveIndex(-1)}
               else setActiveIndex(index)}}>
               <dt className="flex justify-between items-center text-lg leading-6 font-medium text-white">
-                <span>{faq.question}</span>
+                <span>{FAQ.question}</span>
                 <span className="ml-6 flex-shrink-0">
                   {activeIndex === index ? (
                     <MinusIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
@@ -59,7 +59,7 @@ function FAQSection() {
                 </span>
               </dt>
               {activeIndex === index && (
-                <dd className="mt-2 text-base text-gray-500">{faq.answer}</dd>
+                <dd className="mt-2 text-base text-gray-500">{FAQ.answer}</dd>
               )}
             </div>
           ))}

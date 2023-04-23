@@ -18,8 +18,8 @@ export const navLinks = [
     title: "Testimonials",
   },
   {
-    id: "faq",
-    title: "Faq",
+    id: "FAQ",
+    title: "FAQ",
   },
 ];
 
@@ -98,8 +98,8 @@ export const footerLinks = [
         link: "https://www.PRINT3D.com/how-it-works/",
       },
       {
-        name: "Create",
-        link: "https://www.PRINT3D.com/create/",
+        name: "How to Create",
+        link: "https://www.youtube.com/watch?v=nvPRcQPrFe4/",
       },
       {
         name: "Explore",

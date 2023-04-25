@@ -1,5 +1,5 @@
 import styles from "../style";
-import Button from "./Button";
+ 
 
 const CTA = () => (
   <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
@@ -11,7 +11,12 @@ const CTA = () => (
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <Button />
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZDUoch9DexPLk-9huytq7gZQU0o0Js1zUO1CEnWdGJ3zlsQ/viewform" target="_blank" >
+  <button type="button"  className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+ 
+    Get Started
+  </button>
+  </a>
     </div>
   </section>
 );

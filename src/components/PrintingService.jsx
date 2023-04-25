@@ -19,7 +19,7 @@ const ProductCard = ({ imageSrc, name, description, price }) => {
       <h2 className="text-lg font-medium mb-2">{name}</h2>
       <p className="text-white text-sm mb-4">{description}</p>
       <div className="bg-primary flex justify-between items-center">
-        <p className="text-white font-medium text-lg">${price}</p>
+        <p className="text-white font-medium text-lg">{price}</p>
         <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">
            Contact us
         </button>
@@ -42,7 +42,7 @@ const ProductsPage = () => {
       id: 1,
       imageSrc: Image1,
       name: 'Hexacopter Dome Frame',
-      description: 'We printed Hexacopter Dome Frame for Aerostars (The Official Research and Development Society of MAIT).',
+      description: 'We printed Hexacopter Dome Frame for Aerostars .',
       //price: 19.99,
     },
     {
@@ -77,9 +77,7 @@ const ProductsPage = () => {
     return (
       <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
+       
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 m-10">
         {products.map((product) => (

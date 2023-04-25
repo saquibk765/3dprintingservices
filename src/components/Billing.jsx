@@ -20,10 +20,7 @@ const Billing = () => (
       We also provide CAD Designing Services, 2D Drafting, 3D Modelling, Rendering, Animation to customers at a very cheap price. CAD design projects seldom follow a consistent timeline. Often, design teams will have a large influx of work that makes resource allocation difficult. By bringing in outside experts, organizations can fill resource gaps and keep projects on track.
       </p>
 
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
-        <img src={apple} alt="google_play" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" />
-        <img src={google} alt="google_play" className="w-[144.17px] h-[43.08px] object-contain cursor-pointer" />
-      </div>
+      
     </div>
   </section>
 );

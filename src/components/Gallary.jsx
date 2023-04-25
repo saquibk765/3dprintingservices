@@ -25,9 +25,12 @@ const ProductCard = ({ imageSrc, name, description, price }) => {
         <p className="text-white text-sm mb-4">{description}</p>
         <div className="flex justify-between items-center">
           <p className="text-white font-medium text-lg">${price}</p>
+          <a href='https://tailwindcss.com/docs/justify-content' target='_blank'>
           <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">
              Contact us
           </button>
+          </a>
+         
         </div>
       </div>
     </div>
@@ -61,7 +64,7 @@ const ProductsPage = () => {
       id: 3,
       imageSrc: Image3,
       name: 'Customized Lamp',
-      description: 'We also print customized lamps according to the given photographs.',
+      description: 'We also print customized lamps.',
       price: 39.99,
     },
     {
@@ -111,9 +114,7 @@ const ProductsPage = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
+    
     </div>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-4 m-10">
       {products.map((product) => (

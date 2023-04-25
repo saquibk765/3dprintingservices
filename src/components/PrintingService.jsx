@@ -18,7 +18,7 @@ const ProductCard = ({ imageSrc, name, description, price }) => {
     <div className="p-4 bg-primary text-white">
       <h2 className="text-lg font-medium mb-2">{name}</h2>
       <p className="text-white text-sm mb-4">{description}</p>
-      <div className="flex justify-between items-center">
+      <div className="bg-primary flex justify-between items-center">
         <p className="text-white font-medium text-lg">${price}</p>
         <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">
            Contact us
@@ -41,37 +41,37 @@ const ProductsPage = () => {
     {
       id: 1,
       imageSrc: Image1,
-      name: 'Product one',
-      description: 'Description of product 1.',
-      price: 19.99,
+      name: 'Hexacopter Dome Frame',
+      description: 'We printed Hexacopter Dome Frame for Aerostars (The Official Research and Development Society of MAIT).',
+      //price: 19.99,
     },
     {
       id: 2,
       imageSrc: Image2,
-      name: 'Product ',
-      description: 'Description of product 2.',
-      price: 29.99,
+      name: 'Room Layout ',
+      description: 'We also print prototypes for architectural layouts.',
+      //price: 29.99,
     },
     {
       id: 3,
       imageSrc: Image3,
-      name: 'Product 3',
-      description: 'Description of product 3.',
-      price: 39.99,
+      name: 'Dual Nut',
+      description: 'This nut/bolt assembly can lock/unlock in both directions.',
+      //price: 39.99,
     },
     {
       id: 4,
       imageSrc: Image4,
-      name: 'Product 4',
-      description: 'Description of product 4.',
-      price: 49.99,
+      name: 'Festive goodies',
+      description: 'We also print festive materials like Christmas Tree.',
+      //price: 49.99,
     },
     {
       id: 5,
       imageSrc:Image5,
-      name: 'Product 5',
-      description: 'Description of product 5.',
-      price: 59.99,
+      name: 'Magnetic Lamp',
+      description: 'Customize magnetic lamp which glows when both magnets are attracted to each other.',
+      //price: 59.99,
     },
   ];
     return (

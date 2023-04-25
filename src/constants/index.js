@@ -99,7 +99,7 @@ export const footerLinks = [
       },
       {
         name: "How to Create",
-        link: "https://www.youtube.com/watch?v=nvPRcQPrFe4/",
+        link: "https://www.PRINT3D.com/create/",
       },
       {
         name: "Explore",

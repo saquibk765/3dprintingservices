@@ -11,7 +11,12 @@ import Image6 from "../assets/p6.png"
 import Image7 from "../assets/p7.png"
 import Image8 from "../assets/p8.png"
 import Image9 from "../assets/p9.png"
-
+import Image10 from "../assets/p10.png"
+import Image11 from "../assets/p11.jpeg"
+import Image12 from "../assets/p12.jpeg"
+import Image13 from "../assets/p13.jpeg"
+import Image14 from "../assets/p14.png"
+import Image15 from "../assets/p15.jpeg"
 
 
 const ProductCard = ({ imageSrc, name, description, price }) => {
@@ -98,17 +103,60 @@ const ProductsPage = () => {
     {
       id: 8,
       imageSrc: Image8,
-      name: 'Action Figure',
+      name: 'Wall-E',
       description: 'We also print high quality customized action figures.',
       price: 69.99,
     },
     {
       id: 9,
       imageSrc: Image9,
-      name: 'Wall-E',
+      name: 'Action Figure',
       description: 'We also print high quality customized action figures.',
       price: 69.99,
     },
+    {
+      id: 10,
+      imageSrc: Image10,
+      name: 'Customized_Keychain',
+      description: 'We also print high quality customized action figures.',
+      price: 69.99,
+    },
+    {
+      id: 11,
+      imageSrc: Image11,
+      name: 'Customized_Penholder',
+      description: 'We also print high quality customized action figures.',
+      price: 69.99,
+    },
+    {
+      id: 12,
+      imageSrc: Image12,
+      name: 'Customized_Penholder',
+      description: 'We also print high quality customized action figures.',
+      price: 69.99,
+    },
+    {
+      id: 13,
+      imageSrc: Image13,
+      name: 'Customized_Penholder',
+      description: 'We also print high quality customized action figures.',
+      price: 69.99,
+    },
+    {
+      id: 14,
+      imageSrc: Image14,
+      name: 'Customized_Vase',
+      description: 'We also print high quality customized action figures.',
+      price: 69.99,
+    },
+    {
+      id: 15,
+      imageSrc: Image15,
+      name: 'Customized_Peacock',
+      description: 'We also print high quality customized action figures.',
+      price: 69.99,
+    },
+
   ];
 
   return (

@@ -5,11 +5,11 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className=" flex flex-col justify-center	text-center  ">
+      <div className=" flex flex-col justify-center	text-center content-center  ">
         <img
           src={logo}
           alt="PRINT3D"
-          className="w-[266px] h-[72.14px] object-contain"
+          className="w-[266px] h-[72.14px] object-contain mx-auto"
         />
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>  
           Created and Maintained by 

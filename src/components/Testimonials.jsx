@@ -10,7 +10,7 @@ const Testimonials = () => (
       {feedback.map((card) => <FeedbackCard key={card.id} {...card} />)}
     </div>
     <div className=" ">
-    <img src={gen} alt="billing" className="w-[100%] h-[80%] relative z-[5]" />
+    <img src={gen} alt="billing" className="w-[100%] h-[80%] relative z-[1]" />
     </div>
     
   </section>

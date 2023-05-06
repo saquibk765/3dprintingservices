@@ -21,10 +21,12 @@ const ProductCard = ({ imageSrc, name, description, price }) => {
       <h2 className="text-lg font-medium mb-2">{name}</h2>
       <p className="text-white text-sm mb-4">{description}</p>
       <div className="flex justify-between items-center">
-        <p className="text-white font-medium text-lg">${price}</p>
+        <p className="text-white font-medium text-lg">₹{price}</p>
+        <a href='https://wa.me/message/6UV5VQYEJASQI1' target='_blank'>
         <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">
            Contact us
         </button>
+        </a>
       </div>
     </div>
   </div>

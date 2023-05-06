@@ -35,7 +35,7 @@ const Business = () =>  {
        FDM Methods.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Faster Prototyping with FDM, materials including PLA, ABS, Carbon fiber, Nylon, Pet-G, TPU, and many more.
+      Faster Prototyping with FDM, materials including PLA, ABS, Carbon fiber, Nylon, Pet-G, TPU, and many more. Click the button below to see our recent 3D Printed projects.
       </p>
 
       <Button handleClick={handleClick} styles={`mt-10`} />

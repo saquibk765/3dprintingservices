@@ -51,7 +51,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "We are a college students, that’s why we need your help to grow and provide cheapest services possible..",
+      "We are college students, that’s why we need your help to grow and provide cheapest services possible..",
     name: "Saquib Khan",
     title: "",
     img: people01,
@@ -155,7 +155,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://instagram.com/print_3d2023?igshid=YmMyMTA2M2Y=",
   },
   {
     id: "social-media-2",

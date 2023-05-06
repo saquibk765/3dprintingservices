@@ -11,8 +11,13 @@ const Footer = () => (
           alt="PRINT3D"
           className="w-[266px] h-[72.14px] object-contain"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>
-          Convert your imaginations into reality.
+        <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>  
+          Created and Maintained by 
+          <a href='https://www.linkedin.com/in/saquibkhan7/' target='_blank'>
+          <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">
+             Saquib Khan
+          </button>
+          </a>
         </p>
       </div>
 

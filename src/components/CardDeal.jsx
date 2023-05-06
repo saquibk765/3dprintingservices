@@ -22,7 +22,7 @@ const CardDeal = () => {
           printed products?<br className="sm:block hidden" />
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          Have look at our beautiful 3d printed customized products to gift your loved ones including customized moon lamp, picture lamp, customized key chain and many more.
+          Have look at our beautiful 3D Printed customized products to gift your loved ones. Click on the button to see products and their pricing.
         </p>
 
         <Button handleClick={handleClick}> styles={`mt-10`} </Button>

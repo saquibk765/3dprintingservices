@@ -6,7 +6,7 @@ const CTA = () => (
     <div className="flex-1 flex flex-col">
       <h2 className={styles.heading2}>Let’s try our service now!</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Convert your imaginations into reality
+        Convert your imaginations into reality. Click on the button to get instant quotation for 3D Printing Services.
       </p>
     </div>
 

@@ -29,8 +29,8 @@ const ProductCard = ({ imageSrc, name, description, price }) => {
         <h2 className="text-lg font-medium mb-2">{name}</h2>
         <p className="text-white text-sm mb-4">{description}</p>
         <div className="flex justify-between items-center">
-          <p className="text-white font-medium text-lg">${price}</p>
-          <a href='https://tailwindcss.com/docs/justify-content' target='_blank'>
+          <p className="text-white font-medium text-lg">₹{price}</p>
+          <a href='https://wa.me/message/6UV5VQYEJASQI1' target='_blank'>
           <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">
              Contact us
           </button>
@@ -56,21 +56,21 @@ const ProductsPage = () => {
       imageSrc: Image1,
       name: 'Dual Name',
       description: 'This is the Dual Name model which is very interesting.',
-      price: 19.99,
+      price: 200,
     },
     {
       id: 2,
       imageSrc: Image2,
-      name: 'Action Figures',
-      description: 'We also print high quality customized action figures.',
-      price: 29.99,
+      name: 'Customized_Keychain',
+      description: 'We also print high quality customized Keychains.',
+      price: 49.99,
     },
     {
       id: 3,
       imageSrc: Image3,
       name: 'Customized Lamp',
       description: 'We also print customized lamps.',
-      price: 39.99,
+      price: 600,
     },
     {
       id: 4,
@@ -98,7 +98,7 @@ const ProductsPage = () => {
       imageSrc: Image7,
       name: 'Moon Lamp',
       description: 'The moon lamps glow in the dark.',
-      price: 69.99,
+      price: 690,
     },
     {
       id: 8,
@@ -117,7 +117,7 @@ const ProductsPage = () => {
     {
       id: 10,
       imageSrc: Image10,
-      name: 'Customized_Keychain',
+      name: 'Action Figures',
       description: 'We also print high quality customized action figures.',
       price: 69.99,
     },
@@ -126,35 +126,35 @@ const ProductsPage = () => {
       imageSrc: Image11,
       name: 'Customized_Penholder',
       description: 'We also print high quality customized action figures.',
-      price: 69.99,
+      price: 150,
     },
     {
       id: 12,
       imageSrc: Image12,
       name: 'Customized_Penholder',
       description: 'We also print high quality customized action figures.',
-      price: 69.99,
+      price: 130,
     },
     {
       id: 13,
       imageSrc: Image13,
       name: 'Customized_Penholder',
       description: 'We also print high quality customized action figures.',
-      price: 69.99,
+      price: 120,
     },
     {
       id: 14,
       imageSrc: Image14,
       name: 'Customized_Vase',
       description: 'We also print high quality customized action figures.',
-      price: 69.99,
+      price: 500,
     },
     {
       id: 15,
       imageSrc: Image15,
       name: 'Customized_Peacock',
       description: 'We also print high quality customized action figures.',
-      price: 69.99,
+      price: 300,
     },
 
   ];

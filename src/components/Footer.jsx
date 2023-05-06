@@ -5,7 +5,7 @@ import { footerLinks, socialMedia } from "../constants";
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-      <div className=" flex flex-col justify-center	  ">
+      <div className=" flex flex-col justify-center	text-center  ">
         <img
           src={logo}
           alt="PRINT3D"
@@ -14,7 +14,7 @@ const Footer = () => (
         <p className={`${styles.paragraph} mt-4 max-w-[312px]`}>  
           Created and Maintained by 
           <a href='https://www.linkedin.com/in/saquibkhan7/' target='_blank'>
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md">
+          <button className="bg-blue-500 hover:bg-black text-white px-4 py-2 rounded-md">
              Saquib Khan
           </button>
           </a>
